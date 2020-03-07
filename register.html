@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+    <title>Anarghya | Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Flamenco&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="register animated fadeIn">
+      <img src="img/logo1.png" class="logo" alt="logo" />
+      <h2>register here</h2>
+      <form action="register.php" method="POST">
+        <div class="inputbox">
+          <input type="text" name="name" required />
+          <label>Name</label>
+        </div>
+        <div class="inputbox">
+          <input type="text" name="roll" required />
+          <label>Roll No.</label>
+        </div>
+        <div class="inputbox">
+          <input type="text" name="contact" required />
+          <label>Contact No.</label>
+        </div>
+        <div class="inputbox">
+          <label class="label" aria-placeholder="select event">Event 1</label>
+          <select name="ev1" id="event1" class="inputbox" required>
+            <option value=""></option>
+            <option value="bm"> mind optimizer</option>
+            <option value="bt"> blindfold typing</option>
+            <option value="td"> samjho aur samjhao</option>
+            <option value="tq"> x-Quiz-me</option>
+            <option value="hfg">kabhi हाथ kabhi पैर</option>
+            <option value="bow">best out of waste</option>
+            <option value="cb"> Runtime Terror</option>
+            <option value="lej">LAN-e-Jung</option>
+            <option value="fp"> pratibimb</option>
+          </select>
+        </div>
+        <div class="inputbox">
+          <label class="label" aria-placeholder="select event">Event 2</label>
+          <select name="ev2" id="event2" class="inputbox">
+            <option value=""></option>
+            <option value="bm"> mind optimizer</option>
+            <option value="bt"> blindfold typing</option>
+            <option value="td"> samjho aur samjhao</option>
+            <option value="tq"> x-Quiz-me</option>
+            <option value="hfg">kabhi हाथ kabhi पैर</option>
+            <option value="bow">best out of waste</option>
+            <option value="cb"> Runtime Terror</option>
+            <option value="lej">LAN-e-Jung</option>
+            <option value="fp"> pratibimb</option>
+          </select>
+        </div>
+        <div class="inputbox">
+          <label class="label" aria-placeholder="select event">Event 3</label>
+          <select name="ev3" id="event3" class="inputbox">
+            <option value=""></option>
+            <option value="bm"> mind optimizer</option>
+            <option value="bt"> blindfold typing</option>
+            <option value="td"> samjho aur samjhao</option>
+            <option value="tq"> x-Quiz-me</option>
+            <option value="hfg">kabhi हाथ kabhi पैर</option>
+            <option value="bow">best out of waste</option>
+            <option value="cb"> Runtime Terror</option>
+            <option value="lej">LAN-e-Jung</option>
+            <option value="fp"> pratibimb</option>
+          </select>
+        </div>
+        <!-- <div>
+          <input type="checkbox" name="event1" required />
+          <label>Brain mapping</label>
+          <input type="checkbox" name="event1" required />
+          <label>blindfold typing</label>
+          <br />
+          <input type="checkbox" name="event1" required />
+          <label>technical dumbcharades</label><br />
+          <input type="checkbox" name="event1" required />
+          <label>technical quiz</label>
+          <input type="checkbox" name="event1" required />
+          <label>hand nd foot</label><br />
+          <input type="checkbox" name="event1" required />
+          <label>best out of waste</label>
+          <br />
+          <input type="checkbox" name="event1" required />
+          <label>crypto code</label>
+          <input type="checkbox" name="event1" required />
+          <label>war-e-jung</label>
+          <br />
+          <input type="checkbox" name="event1" required />
+          <label>face the art</label>
+          <br />
+        </div> -->
+
+        <input type="submit" value="register" />
+        <input type="reset" value="cancel" />
+      </form>
+    </div>
+  </body>
+</html>
